@@ -1,10 +1,8 @@
 package com.example.dsystems;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import org.hibernate.annotations.Table;
+import java.util.List;
 
 @Entity
 @Table(name = "loans")
@@ -15,6 +13,9 @@ public class Loan {
 
     private String description;
     private double amount;
+
+    @OneToMany(mappedBy = "loan", cascade = CascadeType.ALL)
+    private List<Payment> payments;
 
     // Constructors, getters, and setters
 
@@ -51,5 +52,13 @@ public class Loan {
 
     public void setAmount(double amount) {
         this.amount = amount;
+    }
+
+    public List<Payment> getPayments() {
+        return payments;
+    }
+
+    public void setPayments(List<Payment> payments) {
+        this.payments = payments;
     }
 }
