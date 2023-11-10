@@ -2,6 +2,7 @@ package com.projects.dsystems.web;
 
 import com.projects.dsystems.exception.RecordNotFoundException;
 import com.projects.dsystems.model.Customer;
+import com.projects.dsystems.model.Loan;
 import com.projects.dsystems.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
@@ -31,6 +32,14 @@ public class CustomerController {
         Customer entity = service.getCustomerById(id);
 
         return new ResponseEntity<Customer>(entity, new HttpHeaders(), HttpStatus.OK);
+    }
+
+
+    @GetMapping("/loan/{id}")
+    public ResponseEntity<Loan> getCustomerLoanById(@PathVariable("id") Long id)
+            throws RecordNotFoundException {
+        Loan entity = service.getCustomerLoanById(id);
+        return new ResponseEntity<Loan>(entity, new HttpHeaders(), HttpStatus.OK);
     }
 
     @PostMapping

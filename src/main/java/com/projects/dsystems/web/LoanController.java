@@ -35,7 +35,7 @@ public class LoanController {
         return new ResponseEntity<Loan>(entity, new HttpHeaders(), HttpStatus.OK);
     }
 
-    @PostMapping
+    @PostMapping(consumes={MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity<Loan> createOrUpdateLoan(@RequestBody Loan loan)
             throws RecordNotFoundException {
         Loan updated = service.createOrUpdateLoan(loan);
@@ -50,11 +50,19 @@ public class LoanController {
         return HttpStatus.OK;
     }
 
-    @PostMapping(path = "/deposit", consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+    @PostMapping(path = "/deposit")
     public ResponseEntity<Loan> deposit(@RequestBody Deposit deposit)
             throws RecordNotFoundException {
         Loan updated = service.deposit(deposit);
         return new ResponseEntity<Loan>(updated, new HttpHeaders(), HttpStatus.OK);
     }
+
+    @DeleteMapping(path = "/deposit")
+    public ResponseEntity<Loan> deleteDepositById(@RequestBody Deposit deposit)
+            throws RecordNotFoundException {
+        Loan updated = service.deleteDeposit(deposit);
+        return new ResponseEntity<Loan>(updated, new HttpHeaders(), HttpStatus.OK);
+    }
+
 
 }

@@ -1,12 +1,14 @@
 package com.projects.dsystems.model;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "CUSTOMER")
 @Data
+@ToString
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

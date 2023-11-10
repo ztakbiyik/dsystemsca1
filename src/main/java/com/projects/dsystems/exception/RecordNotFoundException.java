@@ -10,6 +10,7 @@ public class RecordNotFoundException extends Exception {
 
     public RecordNotFoundException(String message) {
         super(message);
+        System.out.println("Exception! " + getClass());
     }
 
     public RecordNotFoundException(String message, Throwable t) {
