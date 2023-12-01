@@ -1640,3 +1640,209 @@ javax.persistence.NoResultException: No entity found for query
 2023-11-10 21:43:31,609 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-9] binding parameter [1] as [BIGINT] - [1]
 2023-11-10 22:45:01,738 TRACE org.hibernate.type.spi.TypeConfiguration [SpringApplicationShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@13cc31ae] for TypeConfiguration
 2023-11-10 22:45:01,738 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [SpringApplicationShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@31a70c47] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@13cc31ae]
+2023-11-10 22:46:39,564 INFO org.springframework.boot.StartupInfoLogger [main] Starting DSystemsApplication using Java 19.0.1 on Zeyneps-MacBook-Air.local with PID 18192 (/Users/zeyneptunaakbiyik/Desktop/dsystemsca1/target/classes started by zeyneptunaakbiyik in /Users/zeyneptunaakbiyik/Desktop/dsystemsca1)
+2023-11-10 22:46:39,565 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-10 22:46:39,926 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2023-11-10 22:46:39,929 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2023-11-10 22:46:39,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-10 22:46:39,930 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-10 22:46:39,959 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-10 22:46:39,959 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 377 ms
+2023-11-10 22:46:40,066 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2'. Database available at 'jdbc:h2:file:/Users/zeyneptunaakbiyik/Desktop/dsystemsca1'
+2023-11-10 22:46:40,118 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-10 22:46:40,195 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-10 22:46:40,205 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@57151b3a
+2023-11-10 22:46:40,205 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@57151b3a
+2023-11-10 22:46:40,206 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@57151b3a
+2023-11-10 22:46:40,206 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@501957bf
+2023-11-10 22:46:40,206 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@6c742b84
+2023-11-10 22:46:40,206 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@395f52ed
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@374c40ba
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@374c40ba
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@374c40ba
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@3709748f
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@3709748f
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3709748f
+2023-11-10 22:46:40,207 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@39832280
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@39832280
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@39832280
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@25791d40
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@25791d40
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@25791d40
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@dbed7fd
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@dbed7fd
+2023-11-10 22:46:40,208 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@dbed7fd
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@3db65c0d
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@3db65c0d
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3db65c0d
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@8c0a23f
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@8c0a23f
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@8c0a23f
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@45801322
+2023-11-10 22:46:40,209 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@45801322
+2023-11-10 22:46:40,210 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6a1568d6
+2023-11-10 22:46:40,210 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6a1568d6
+2023-11-10 22:46:40,210 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@3b11620a
+2023-11-10 22:46:40,210 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@3b11620a
+2023-11-10 22:46:40,211 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@582e9152
+2023-11-10 22:46:40,211 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@de579ff
+2023-11-10 22:46:40,211 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@4d518c66
+2023-11-10 22:46:40,211 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@4d518c66
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@797fcf9
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@797fcf9
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@4fb64e14
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4fb64e14
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@58f254b1
+2023-11-10 22:46:40,212 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@58f254b1
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3c81cd82
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3c81cd82
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@75eaba95
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@75eaba95
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@f5bf288
+2023-11-10 22:46:40,213 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@f5bf288
+2023-11-10 22:46:40,214 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@20440c6c
+2023-11-10 22:46:40,214 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@20440c6c
+2023-11-10 22:46:40,214 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@69ec93c2
+2023-11-10 22:46:40,214 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@69ec93c2
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@4168f3d9
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@4168f3d9
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@68631b1d
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@68631b1d
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@24a0c58b
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@24a0c58b
+2023-11-10 22:46:40,215 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@24a0c58b
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3a11c0eb
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@3e4d40ea
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3e4d40ea
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3e4d40ea
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3d3c886f
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@24fba488
+2023-11-10 22:46:40,216 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@67328bcb
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@67328bcb
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@1e6060f1
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1e6060f1
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@36224f93
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@36224f93
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@19b75b2b
+2023-11-10 22:46:40,217 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@19b75b2b
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6aa7e176
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6aa7e176
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1cd2143b
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@57186526
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@57186526
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@57186526
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@257f30f7
+2023-11-10 22:46:40,218 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@257f30f7
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@257f30f7
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@615efd1c
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@35025a0a
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@16cf8438
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@16cf8438
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@16cf8438
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@526f6427
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@526f6427
+2023-11-10 22:46:40,219 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@526f6427
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@6ddd1c51
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@4c18516
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@42c0a16e
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@42c0a16e
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2ca3d826
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@119290b9
+2023-11-10 22:46:40,220 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@119290b9
+2023-11-10 22:46:40,221 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@615db358
+2023-11-10 22:46:40,221 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@615db358
+2023-11-10 22:46:40,221 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@22a6d75c
+2023-11-10 22:46:40,221 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2ca54da9
+2023-11-10 22:46:40,221 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@50598a1a
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@8b13d91
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@8b13d91
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@16d431b4
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6c0b51da
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7558633
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5657967b
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@61394494
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@578a5ce8
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7c453c34
+2023-11-10 22:46:40,223 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@16cb9989
+2023-11-10 22:46:40,243 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-10 22:46:40,255 DEBUG org.hibernate.type.spi.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42d9e8d2] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4b93dd6a]
+2023-11-10 22:46:40,323 DEBUG org.hibernate.type.spi.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42d9e8d2] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@f849027]
+2023-11-10 22:46:40,475 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-10 22:46:40,478 TRACE org.hibernate.type.spi.TypeConfiguration [main] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@f849027] for TypeConfiguration
+2023-11-10 22:46:40,508 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-10 22:46:40,613 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2023-11-10 22:46:40,619 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2023-11-10 22:46:40,623 INFO org.springframework.boot.StartupInfoLogger [main] Started DSystemsApplication in 1.228 seconds (JVM running for 1.503)
+2023-11-10 22:53:00,823 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 22:53:00,823 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-10 22:53:00,825 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2023-11-10 22:53:00,864 DEBUG org.hibernate.stat.internal.StatisticsInitiator [http-nio-8090-exec-1] Statistics initialized [enabled=false]
+2023-11-10 22:53:00,919 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-1] binding parameter [1] as [VARCHAR] - [123 st]
+2023-11-10 22:53:00,919 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-1] binding parameter [2] as [DOUBLE] - [70000.0]
+2023-11-10 22:53:00,919 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-1] binding parameter [3] as [VARCHAR] - [zeynep]
+2023-11-10 22:53:00,919 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-1] binding parameter [4] as [VARCHAR] - [45248]
+2023-11-10 22:53:07,155 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-3] extracted value ([id1_0_] : [BIGINT]) - [1]
+2023-11-10 22:53:07,157 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-3] extracted value ([address2_0_] : [VARCHAR]) - [123 st]
+2023-11-10 22:53:07,157 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-3] extracted value ([annual_s3_0_] : [DOUBLE]) - [70000.0]
+2023-11-10 22:53:07,157 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-3] extracted value ([name4_0_] : [VARCHAR]) - [zeynep]
+2023-11-10 22:53:07,157 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-3] extracted value ([phone_nu5_0_] : [VARCHAR]) - [45248]
+2023-11-10 22:53:39,793 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-4] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:53:39,796 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-4] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:53:39,798 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-4] extracted value ([address2_0_0_] : [VARCHAR]) - [123 st]
+2023-11-10 22:53:39,798 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-4] extracted value ([annual_s3_0_0_] : [DOUBLE]) - [70000.0]
+2023-11-10 22:53:39,798 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-4] extracted value ([name4_0_0_] : [VARCHAR]) - [zeynep]
+2023-11-10 22:53:39,798 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-4] extracted value ([phone_nu5_0_0_] : [VARCHAR]) - [45248]
+2023-11-10 22:53:39,799 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-4] binding parameter [1] as [DOUBLE] - [50.0]
+2023-11-10 22:53:39,799 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-4] binding parameter [2] as [BIGINT] - [1]
+2023-11-10 22:53:39,799 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-4] binding parameter [3] as [VARCHAR] - [new loan]
+2023-11-10 22:53:51,913 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-5] extracted value ([id1_2_] : [BIGINT]) - [1]
+2023-11-10 22:53:51,914 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-5] extracted value ([amount2_2_] : [DOUBLE]) - [50.0]
+2023-11-10 22:53:51,914 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-5] extracted value ([customer3_2_] : [BIGINT]) - [1]
+2023-11-10 22:53:51,915 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-5] extracted value ([descript4_2_] : [VARCHAR]) - [new loan]
+2023-11-10 22:53:51,925 TRACE org.hibernate.type.CollectionType [http-nio-8090-exec-5] Created collection wrapper: [com.projects.dsystems.model.Loan.deposits#1]
+2023-11-10 22:53:51,928 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-5] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:54:24,760 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:54:24,761 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-6] extracted value ([id1_1_2_] : [BIGINT]) - [null]
+2023-11-10 22:54:24,762 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-6] extracted value ([amount2_2_0_] : [DOUBLE]) - [50.0]
+2023-11-10 22:54:24,762 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-6] extracted value ([customer3_2_0_] : [BIGINT]) - [1]
+2023-11-10 22:54:24,762 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-6] extracted value ([descript4_2_0_] : [VARCHAR]) - [new loan]
+2023-11-10 22:54:24,762 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-6] extracted value ([loan_id5_1_1_] : [BIGINT]) - [null]
+2023-11-10 22:54:24,766 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [1] as [DOUBLE] - [52.0]
+2023-11-10 22:54:24,766 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [2] as [BIGINT] - [1]
+2023-11-10 22:54:24,767 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [3] as [TIMESTAMP] - [Thu Nov 23 00:00:00 GMT 2023]
+2023-11-10 22:54:24,768 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [4] as [BIGINT] - [1]
+2023-11-10 22:54:24,778 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:54:24,779 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-6] binding parameter [2] as [BIGINT] - [1]
+2023-11-10 22:54:34,126 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([id1_2_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,127 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([amount2_2_] : [DOUBLE]) - [50.0]
+2023-11-10 22:54:34,127 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([customer3_2_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,127 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([descript4_2_] : [VARCHAR]) - [new loan]
+2023-11-10 22:54:34,127 TRACE org.hibernate.type.CollectionType [http-nio-8090-exec-7] Created collection wrapper: [com.projects.dsystems.model.Loan.deposits#1]
+2023-11-10 22:54:34,128 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-7] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:54:34,130 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([id1_1_1_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,131 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([amount2_1_1_] : [DOUBLE]) - [52.0]
+2023-11-10 22:54:34,131 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([customer3_1_1_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,133 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([deposit_4_1_1_] : [TIMESTAMP]) - [2023-11-23 00:00:00.0]
+2023-11-10 22:54:34,133 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([loan_id5_1_1_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,133 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([loan_id5_1_0_] : [BIGINT]) - [1]
+2023-11-10 22:54:34,134 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-7] extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,484 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-8] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:55:17,487 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([id1_1_2_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,487 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([amount2_2_0_] : [DOUBLE]) - [50.0]
+2023-11-10 22:55:17,488 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([customer3_2_0_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,488 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([descript4_2_0_] : [VARCHAR]) - [new loan]
+2023-11-10 22:55:17,489 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([amount2_1_2_] : [DOUBLE]) - [52.0]
+2023-11-10 22:55:17,489 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([customer3_1_2_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,490 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([deposit_4_1_2_] : [TIMESTAMP]) - [2023-11-23 00:00:00.0]
+2023-11-10 22:55:17,490 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([loan_id5_1_2_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,491 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([loan_id5_1_1_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,491 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-8] extracted value ([id1_1_1_] : [BIGINT]) - [1]
+2023-11-10 22:55:17,498 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-8] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 22:55:21,351 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-9] extracted value ([id1_2_] : [BIGINT]) - [1]
+2023-11-10 22:55:21,351 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-9] extracted value ([amount2_2_] : [DOUBLE]) - [50.0]
+2023-11-10 22:55:21,352 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-9] extracted value ([customer3_2_] : [BIGINT]) - [1]
+2023-11-10 22:55:21,352 TRACE org.hibernate.type.descriptor.sql.BasicExtractor [http-nio-8090-exec-9] extracted value ([descript4_2_] : [VARCHAR]) - [new loan]
+2023-11-10 22:55:21,352 TRACE org.hibernate.type.CollectionType [http-nio-8090-exec-9] Created collection wrapper: [com.projects.dsystems.model.Loan.deposits#1]
+2023-11-10 22:55:21,352 TRACE org.hibernate.type.descriptor.sql.BasicBinder [http-nio-8090-exec-9] binding parameter [1] as [BIGINT] - [1]
+2023-11-10 23:20:13,443 TRACE org.hibernate.type.spi.TypeConfiguration [SpringApplicationShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@f849027] for TypeConfiguration
+2023-11-10 23:20:13,444 DEBUG org.hibernate.type.spi.TypeConfiguration$Scope [SpringApplicationShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3ad7a402] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@f849027]
